@@ -1,0 +1,73 @@
+body{
+  background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position:sticky;
+}
+nav ul{
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    list-style-type: none;
+    height: 1.9rem;
+    background-color: black;
+    color: white;  
+}
+nav ul li{
+    padding:0rem 0.2rem;
+}
+.logo_img{
+    display:flex ;
+    align-items: center;
+    font-weight: bold;
+    padding: 0rem 0.3rem;
+
+}
+.logo_img img{
+    height: 1.93rem;
+}
+.container{
+    min-height:72vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    background-image: url('bg.jpeg');
+}
+.bottom{
+    position: sticky;
+    bottom:0;
+    background-color: black;
+    color: white;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 1rem 0rem;
+} 
+#progress_bar{
+    width: 45rem;
+}
+.song_list{
+    background-color: beige;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 40%;
+}
+.song-item img{
+    height: 1rem;
+    border-radius: 1rem;
+    margin: 0rem 1rem;
+}
