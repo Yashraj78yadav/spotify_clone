@@ -91,6 +91,6 @@ nav ul li{
 }
 .song-gif img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.2s ease-in;
 
 }
