@@ -32,3 +32,6 @@ audioElement.addEventListener('timeupdate',()=>{
     //  console.log(progress);
     progress_bar.value=progress;
 })
+progress_bar.addEventListener('change',()=>{
+    audioElement.currentTime=pogress_bar.value*audioElement.duration/100;
+})
